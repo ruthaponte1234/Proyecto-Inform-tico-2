@@ -1,1 +1,37 @@
-
+PROYECTO GIT:
+¿Qué es Git?
+Git es un sistema de control de versiones distribuido que permite a
+los desarrolladores rastrear cambios en su código, colaborar con
+otros de manera eficiente y mantener un historial completo de todos
+los cambios realizados en un proyecto. Es ampliamente utilizado en
+el desarrollo de software.
+¿Para qué sirve?
+- Rastreo de cambios: Guarda un historial detallado de
+modificaciones.
+- Colaboración: Permite trabajar en equipo sin conflictos entre los
+cambios.
+- Ramas: Facilita experimentar con nuevas ideas sin afectar el
+código principal.
+- Despliegue: Integra proyectos con servicios como GitHub o
+GitLab para compartir y gestionar.
+¿Cómo funciona Git?
+1. Repositorios: Todo comienza con un repositorio, que es el
+contenedor de tu proyecto.
+2. Estados: Los archivos pueden estar en tres estados:
+modificado, preparado para ser confirmado (*staged*) o confirmado
+(*committed*).
+3. Comandos: Git utiliza comandos para realizar acciones, como
+agregar archivos, crear ramas, y subir cambios a un servidor remoto.
+Cinco comandos esenciales de Git
+1. git init: Inicializa un nuevo repositorio de Git en una carpeta.
+Ejemplo: `git init`
+2. git add: Añade archivos al área de preparación (staging area), indicandole a Git que los
+rastree.
+Ejemplo: git add archivo.txt
+3. git commit: Guarda los cambios preparados en el historial del
+repositorio.
+Ejemplo: `git commit -m "Mensaje del commit"`
+4.`git branch: Lista, crea o elimina ramas en el repositorio.
+Ejemplo: `git branch nueva_rama
+5.git push: Sube los cambios del repositorio local al remoto.
+Ejemplo: git push origin main
